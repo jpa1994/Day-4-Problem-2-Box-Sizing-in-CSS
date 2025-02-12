@@ -1,0 +1,25 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.box1 {
+    box-sizing: content-box;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #ffc9a0;
+    background-color: #c1fffb;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.box2 {
+    box-sizing: border-box;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #ffc9a0;
+    background-color: #c1fffb;
+    display: inline-block;
+    vertical-align: top;
+}
